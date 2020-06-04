@@ -1,0 +1,181 @@
+body {
+	font-size: 12px;
+	font-weight: bold;
+	color: cyan;
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+
+
+/* Colour */
+.red {
+	background-color: red;
+}
+
+.orange {
+	background-color: orange;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.green {
+	background-color: green;
+}
+
+#container {
+	width: 960px;
+	margin: 0 auto; /*centers the container*/
+}
+
+
+/* Header */
+#mainHeader {
+	height: 65px;
+	display: flex;
+	flex-direction: row;
+	background-color: red;
+}
+
+#mainNav {
+	height: 39px;
+	width: 475px;
+	background-color: #555434;
+	margin-right: auto;
+	margin-top: 13px;
+	margin-right: 13px;
+}
+
+#logo {
+	height: 39px;
+	width: 39px;
+	background-color: #f0aeae;
+	margin-right: auto;
+	margin-top: 13px;
+	margin-left: 13px;
+}
+
+#mainImage {
+	height: 475px;
+	background-color: #333333;
+}
+
+
+/* About Us Section*/
+.sectionContainer {
+	height: 300px;
+	background-color: #E3E3E3;
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+}
+
+.split {
+	width: 480px;
+	height: 300px;
+	background-color: #3c4209;
+}
+
+#aboutUsRightContainer {
+	width: 478px;
+	height: 298px;
+	background-color: #173f5f;
+}
+
+.aboutUsDescription {
+	display: inline-block;
+    width: 50%;
+    height: 50%;
+    margin-right: -3px;
+}
+
+
+/* Our Products Section */
+.productContainer {
+	display: block;
+	width: 168px;
+	height: 201px;
+	background-color: black;
+	margin: 0 auto;
+	margin-top: 49px;
+}
+
+/* Advertisement */
+#advertisementImage {
+	width: 359px;
+	height: 216px;
+	background-color: white;
+	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-top: 42px;
+}
+
+#advertisementDescription {
+	width: 359px;
+	height: 216px;
+	background-color: blue;
+	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-top: 42px;
+}
+
+/* Footer */
+#mainFooter {
+	height: 217px;
+	background-color: darkred;
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+}
+
+#footerLogoContainer {
+	width: 213px;
+	background-color: pink;
+}
+
+#footerNavContainer {
+	width: 747px;
+	background-color: yellow;
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+}
+
+.footerNav {
+	width: 192px;
+	height: 165px;
+	background-color: purple;
+	display: inline-block;
+	margin: 0 auto;
+	margin-top: 27px;
+}
+
+
+/* Soical Media & Copyright*/
+#socialMediaContainer {
+	height: 83px;
+	background-color: orange;
+	display: flex;
+}
+
+#socialMedia {
+	width: 126px;
+	height: 24px;
+	background-color: brown;
+	margin-left: 60px;
+	margin-top: 15px;
+	display: block;
+}
+
+#copyright {
+	width: 100px;
+	height: 11px;
+	background-color: wheat; 
+	margin-left: 60px;
+	margin-top: 20px;
+	display: block;
+}
